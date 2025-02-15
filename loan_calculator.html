@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="loan_calculator.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header-section">
+            <h1>Loan Calculator</h1>
+            <h3>Calculate your monthly payments and total interest yearly</h3>
+        </div>
+        <div id="input-area">
+            <div id="input-section">
+                <p>Loan amount</p>
+                <input type="text" placeholder="e.g., Rs. 25000" id="ammount">
+                <p>Annual Interest</p>
+                <input type="text" placeholder="e.g., 5.5" id="interest">
+                <p>Loan Term</p>
+                <input type="text" placeholder="e.g., 20" id="year">
+                <button id="calculate">Calculate Loan</button>
+            </div>
+            <div id="output-section">
+                <h2>Loan Summary</h2>
+                <div class="result-grid">
+                    <div class="result-item">
+                        <span class="result-label">Monthly Payment</span>
+                        <span class="result-value" id="monthly">Rs. 0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Total Payment</span>
+                        <span class="result-value" id="total">Rs. 0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Total Interest Amount to be Paid</span>
+                        <span class="result-value" id="totalinterest">Rs. 0</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="loan_calculator.js"></script>
+</body>
+
+</html>

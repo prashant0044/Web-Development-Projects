@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splitter</title>
+    <link rel="stylesheet" href="splitter.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="heading ">
+            <h1>Split and Share</h1>
+            <h3>The smart way to calculate and split bills with friends. Perfect for dining out,
+                group activities, or shared expenses. Get instant calculations with fair splits and
+                detailed breakdowns
+            </h3>
+        </div>
+
+        <div class="main-content">
+            <div class="input-section">
+
+                <div class="bill-entry">
+                    <h2>Bill Amount</h2>
+                    <input type="text" id="bill-amount" placeholder="Enter the total bill amount">
+                    <span>Rs</span>
+                    <h2>Service Rating</h2>
+                    <input type="text" name="" id="rating-entry" placeholder="Exceptional- 20%">
+                    <h2>Number of People</h2>
+                    <input type="text" id="people-number" placeholder="Ex- 1,2,3...">
+                    <button id="submit">Calculate</button>
+
+                </div>
+            </div>
+
+            <div class="output-section">
+                <h2>Breakdown</h2>
+                <div class="breakdown-grid">
+                    <div class="tip-amount">
+                        <span class="tip-label">Tip Amount</span>
+                        <span class="tip-value">Rs. 0</span>
+                    </div>
+                    <div class="total-bill">
+                        <span class="bill-label">Total Bill</span>
+                        <span class="bill-value">Rs. 0</span>
+                    </div>
+                    <div class="per-person">
+                        <span class="person-label">Per Person</span>
+                        <span class="person-value">Rs. 0</span>
+                    </div>
+                    <div class="tip-per-person">
+                        <span class="tip-person-label">Tip Per Person</span>
+                        <span class="tip-person-value">Rs. 0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<script src="splitter.js"></script>
+</body>
+
+</html>

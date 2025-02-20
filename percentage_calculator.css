@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+#container {
+    min-height: 100vh;
+    background: linear-gradient(150deg, rgb(88, 253, 88), blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+#calculator {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+
+}
+
+#header {
+    background: linear-gradient(135deg, blue, green);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+#header h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+#header h3 {
+    font-size: 1rem;
+
+}
+
+#main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+
+}
+
+#amount-input {
+    padding: 10px;
+}
+
+#percentage-input {
+    padding: 10px;
+}
+
+#calculate {
+    padding: 10px;
+
+}
+
+button {
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+#output-section {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+#percentage-output {
+
+    display: grid;
+    gap: 10px;
+    background: #f7fafc;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #afafaf;
+}
+
+#amount-output {
+
+    display: grid;
+    gap: 10px;
+    background: #f7fafc;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #afafaf;
+
+}
+
+#amount-label {
+    padding: 10px;
+}
+
+#percentage-label {
+    padding: 10px;
+}
+
+#percentage-value {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #afafaf;
+    padding: 20px;
+}
+
+#amount-value {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #afafaf;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 35px 12px 15px;
+    border: 1px solid #afafaf;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #2d3748;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}

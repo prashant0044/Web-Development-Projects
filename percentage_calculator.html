@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="percentage_calculator.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="header">
+                <h1>Percentage Calculator</h1>
+                <h3>This application helps us to calculate the percent applied on a certain amount</h3>
+                <h3>Simple and Precise calculations</h3>
+            </div>
+            <div id="main">
+                <div id="input-section">
+                    <div id="amount-input">
+                        <h2>Amount</h2>
+                        <input type="text" id="amount" placeholder="Rs. 0">
+                    </div>
+                    <div id="percentage-input">
+                        <h2>Percentage</h2>
+                        <input type="text" id="percentage" placeholder="0%">
+                    </div>
+                    <div id="calculate">
+                        <button id="button">Calculate</button>
+                    </div>
+                </div>
+                <div id="output-section">
+                    <div id="percentage-output">
+                        <span id="percentage-label">Percentage: </span>
+                        <span id="percentage-value">0</span>
+                    </div>
+                    <div id="amount-output">
+                        <span id="amount-label">Final Amount: </span>
+                        <span id="amount-value">0</span>  <!-- Changed ID to avoid duplication -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="percentage_calculator.js"></script>
+</body>
+
+</html>

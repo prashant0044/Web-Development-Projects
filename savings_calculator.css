@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#container{
+    
+    border: 1px solid lightgray;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 13px 11px 29px -7px rgba(30, 32, 30, 0.76);}
+
+
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin:100px;
+}
+
+#header-section{
+    text-align: center;
+    color: green;
+    padding: 10px;
+}
+
+#logo-section{
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo-section img{
+    width: 50%;
+    height: 30%;
+}
+
+#input-section{
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: green;
+    margin: 50px;
+    
+    
+}
+
+#savings-section{
+    width: 100%;
+    height: max-content;
+
+    
+}
+
+#savings-section h2{
+    margin-top: 30px;
+}
+
+#savings-section input{
+    width: 70%;
+    border-radius: 10px;
+    height: 3rem;
+    font-size: 1rem;
+    border-color: green;
+    padding: 10px;
+    margin-top:10px
+}
+
+#savings-section button{
+    border: 0.5px solid green;
+    border-radius: 10px;
+    width: 70%;
+    height: 3rem;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: white;
+    background-color: green;
+}
+
+#result{
+    color: green;
+    margin-top: 30px;
+}

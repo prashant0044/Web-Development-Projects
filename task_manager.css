@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#main-body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    width: 40%;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 3px 8px 44px 7px rgba(65, 65, 65, 0.75);
+    border-radius: 20px;
+
+}
+
+#header-section{
+    color: rgb(106, 0, 172);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#input-section {
+    display: flex;  /* Aligns input and button in one row */
+    align-items: center;  /* Centers them vertically */
+    justify-content: center;  /* Centers the entire section */
+    gap: 10px;  /* Adds spacing between input and button */
+    padding: 10px;
+    width: 100%;
+}
+
+#input-section input {
+    width: 70%;
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid lightgray; 
+    color: rgb(106, 0, 172);
+    font-size: 16px;
+    outline: none;
+}
+
+#input-section button {
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(106, 0, 172);
+    color: white;
+    border: none; 
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#input-section button:hover {
+    background-color: rgb(86, 0, 140); 
+}
+
+#checklist-button{
+    padding: 10px;
+}
+
+#checklist-button button{
+    padding: 10px;
+    height: 50px;
+    width: 32%;
+    border: 0.5px solid lightgrey;
+    border-radius: 10px;
+    background-color: rgb(106, 0, 172);
+    color: white;
+
+}
+
+#checklist-button button:hover{
+    background-color: white;
+    color: rgb(106, 0, 172);
+    transition: 0.5s;
+}
+
+
+
+#input-section button:hover{
+    background-color: white;
+    color: rgb(106, 0, 172);
+    transition: 0.5s;
+}
+
+#input-section input:hover{
+    border: 0.5px solid rgb(106, 0, 172) ;
+    transition: 0.5s;
+}
+#task-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.task h3 {
+    margin: 0;
+    flex-grow: 1; 
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+.task button {
+    margin-left: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+/* Styling for Complete (✔) Button */
+.complete-btn {
+    background-color: transparent;
+    border: none;
+    color: green; /* Green tick */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Styling for Delete (❌) Button */
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: red; /* Red cross */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.complete-btn:hover {
+    color: darkgreen;
+}
+
+.delete-btn:hover {
+    color: darkred;
+}
